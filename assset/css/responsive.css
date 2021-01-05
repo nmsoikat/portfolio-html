@@ -1,0 +1,249 @@
+@media only screen and (min-width: 992px) and (max-width: 1500px){
+
+}
+
+
+/* =========================================================================== */
+/* Large Device lg */
+/* =========================================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .slider-area {
+    height: 58%;
+  }
+  .btn-order-now.slide {
+    margin-top: 10%;
+  }
+  .step-detail p {
+    min-height: 190px;
+  }
+  
+  /* --------- Modal----------- */
+  .modal-area {
+    width: 80%;
+  }
+}
+
+
+/* =========================================================================== */
+/* Medium Device md */
+/* =========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Responsive nav */
+  .main-nav{
+    position: relative;
+    height: 50px;
+  }
+  .menu{
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 15px;
+    display: none;
+    visibility: hidden;
+  }
+  .responsive.main-nav .menu{
+    display: block;
+    visibility: visible;
+    width: 65%;
+    top: 100%;
+    background-color:#ececec
+  }
+  .responsive.main-nav .menu li {
+    border-bottom: 1px solid #d4d4d4;
+  }
+
+ .responsive.main-nav .menu {
+    border: 1px solid #d4d4d4;
+  }
+ .responsive.main-nav .menu li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  
+
+  /* ----------- Slider area -------- */
+  .btn-order-now.slide {
+    margin-top: 10%;
+  }
+  .slider-area .carousel-inner .model-image.women-1 {
+    padding-top: 0%;
+    margin-top: -18%;
+    text-align: right;
+  }
+  .slider-area {
+    height: 64%;
+  }
+
+  /* second slide */
+  .carousel-inner{
+    height: 100%;
+  }
+  
+  /* -------- Gallery area Before and after----------- */
+  .gallery-wrapper .item {
+    width: 48%;
+    width: calc(50% - 10px);
+  }
+
+  /* --------- Elimination Area --------- */
+  .eliminate-wrapper .item {
+    width: 31%;
+    width: calc(33% - 15px);
+    margin-bottom: 25px;
+  }
+
+  /* ---------- How it work----------- */
+  .step-detail p {
+    min-height: 270px;
+  }
+
+  /* --------- Modal----------- */
+  .modal-area {
+    width: 80%;
+  }
+
+}
+
+/* @media only screen and (min-width: 768px) and (max-width: 810px) {
+
+
+} */
+
+/* =========================================================================== */
+/* Medium To Extra Small Device */
+/* =========================================================================== */
+@media only screen and (max-width: 767px) {
+  .main-nav{
+    position: relative;
+    height: 50px;
+  }
+  .menu{
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 15px;
+    display: none;
+    visibility: hidden;
+  }
+  .responsive.main-nav .menu{
+    display: block;
+    visibility: visible;
+    width: 65%;
+    top: 100%;
+    background-color:#ececec
+  }
+  .responsive.main-nav .menu li {
+    border-bottom: 1px solid #d4d4d4;
+  }
+
+ .responsive.main-nav .menu {
+    border: 1px solid #d4d4d4;
+  }
+ .responsive.main-nav .menu li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+
+  /* ----------- Slider area -------- */
+  .btn-order-now.slide {
+    margin-top: 10%;
+  }
+  .slider-area .carousel-inner .model-image.women-1 {
+    padding-top: 0%;
+    margin-top: 10%;
+    text-align: center;
+  }
+  .slider-area {
+    height: 86%;
+  } 
+  .caption-wrap {
+    text-align: center;
+  }
+  .order-btn-wrap {
+    margin: 0px auto;
+  }
+  /* second slide */
+  .carousel-inner{
+    height: 100%;
+  }
+
+  .slide-item-2.caption-wrap{
+    text-align: left;
+    margin-top: 10%;
+  }
+
+
+
+  /* ----------- gallery area before after */
+  .gallery-wrapper .item {
+    width: 48%;
+    width: calc(50% - 10px);
+  }
+
+
+  /* --------- Elimination Area --------- */
+  .eliminate-wrapper .item {
+    width: 48%;
+    width: calc(50% - 10px);
+    margin-bottom: 25px;
+  }
+
+  /* ---------- How it work----------- */
+  .step-detail p {
+    min-height: auto;
+  }
+
+  /* --------- Modal----------- */
+  .modal-area {
+    width: 80%;
+  }
+}
+
+
+
+/* Small Device sm */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .right-side {
+    width: 100%;
+    margin-top: -160%;
+    margin-left: 0px;
+    background-position: top;
+  }
+  .left-side-info {margin-left: 0;}
+  .hero-area .left-side {
+      justify-content: center;
+      text-align: center;
+  }
+  .left-side-info p{
+    font-size: 25px;
+  }
+}
+
+/* Extra Small device */
+@media only screen and (max-width: 575px) {
+  .right-side {
+    width: 100%;
+    margin-top: -200%;
+    margin-left: 0px;
+    background-position: top;
+  }
+  .left-side-info {margin-left: 0;}
+  .left-side-info .title, .left-side-info .subtitle {
+    font-size: 35px;
+  }
+  .hero-area .left-side {
+      justify-content: center;
+      text-align: center;
+  }
+  .left-side-info p{
+    font-size: 25px;
+  }
+  .gallery-wrapper .item {
+    width: 100%;
+  }
+}
